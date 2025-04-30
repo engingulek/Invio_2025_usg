@@ -24,7 +24,7 @@ class DetailRouter {
 
 extension DetailRouter : PresenterToRouterDetailProtocol {
     func toLocationMap(view: PresenterToViewDetailProtocol?, locationElement: LocationElement) {
-      //  let viewController = LocationMapRouter.createRouter(locationElement: locationElement)
-      //  view?.pushViewControllerAble(viewController, animated: true)
+       let viewController = LocationMapRouter.createRouter(locationElement: locationElement)
+       view?.pushViewControllerAble(viewController, animated: true)
     }
 }
