@@ -38,7 +38,7 @@
 		7DD40CE52DC2323F00E142E3 /* MockSplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CE42DC2323F00E142E3 /* MockSplashInteractor.swift */; };
 		7DD40CE72DC2325D00E142E3 /* MockPageElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CE62DC2325D00E142E3 /* MockPageElements.swift */; };
 		7DD40CE92DC2328D00E142E3 /* MockSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CE82DC2328D00E142E3 /* MockSplashViewController.swift */; };
-		7DD40CEB2DC232AE00E142E3 /* SplashViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CEA2DC232AE00E142E3 /* SplashViewModelTests.swift */; };
+		7DD40CEB2DC232AE00E142E3 /* SplashPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CEA2DC232AE00E142E3 /* SplashPresenterTests.swift */; };
 		7DD40CEE2DC2363C00E142E3 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CED2DC2363C00E142E3 /* HomeProtocols.swift */; };
 		7DD40CF02DC2368400E142E3 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CEF2DC2368300E142E3 /* HomeRouter.swift */; };
 		7DD40CF22DC236A600E142E3 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CF12DC236A600E142E3 /* HomeInteractor.swift */; };
@@ -54,6 +54,9 @@
 		7DD40D0B2DC23A3F00E142E3 /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40D092DC23A3F00E142E3 /* Database.xcdatamodeld */; };
 		7DD40D0E2DC23A8E00E142E3 /* CoreDataManaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40D0D2DC23A8E00E142E3 /* CoreDataManaging.swift */; };
 		7DD40D102DC23AA300E142E3 /* FavoriteCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40D0F2DC23AA300E142E3 /* FavoriteCoreDataManager.swift */; };
+		7DD40D132DC23C5D00E142E3 /* MockHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40D122DC23C5D00E142E3 /* MockHomeInteractor.swift */; };
+		7DD40D152DC23C8E00E142E3 /* MockHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40D142DC23C8E00E142E3 /* MockHomeViewController.swift */; };
+		7DD40D172DC23CB900E142E3 /* HomePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40D162DC23CB900E142E3 /* HomePresenterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,7 +110,7 @@
 		7DD40CE42DC2323F00E142E3 /* MockSplashInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSplashInteractor.swift; sourceTree = "<group>"; };
 		7DD40CE62DC2325D00E142E3 /* MockPageElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPageElements.swift; sourceTree = "<group>"; };
 		7DD40CE82DC2328D00E142E3 /* MockSplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSplashViewController.swift; sourceTree = "<group>"; };
-		7DD40CEA2DC232AE00E142E3 /* SplashViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModelTests.swift; sourceTree = "<group>"; };
+		7DD40CEA2DC232AE00E142E3 /* SplashPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenterTests.swift; sourceTree = "<group>"; };
 		7DD40CED2DC2363C00E142E3 /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
 		7DD40CEF2DC2368300E142E3 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		7DD40CF12DC236A600E142E3 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
@@ -123,6 +126,9 @@
 		7DD40D0A2DC23A3F00E142E3 /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
 		7DD40D0D2DC23A8E00E142E3 /* CoreDataManaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManaging.swift; sourceTree = "<group>"; };
 		7DD40D0F2DC23AA300E142E3 /* FavoriteCoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCoreDataManager.swift; sourceTree = "<group>"; };
+		7DD40D122DC23C5D00E142E3 /* MockHomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHomeInteractor.swift; sourceTree = "<group>"; };
+		7DD40D142DC23C8E00E142E3 /* MockHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHomeViewController.swift; sourceTree = "<group>"; };
+		7DD40D162DC23CB900E142E3 /* HomePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +199,7 @@
 		7DD40C7D2DC2260E00E142E3 /* Invio_2025_USGTests */ = {
 			isa = PBXGroup;
 			children = (
+				7DD40D112DC23C4000E142E3 /* home */,
 				7DD40CE32DC2322600E142E3 /* splash */,
 				7DD40C7E2DC2260E00E142E3 /* Invio_2025_USGTests.swift */,
 				7DD40CE62DC2325D00E142E3 /* MockPageElements.swift */,
@@ -312,7 +319,7 @@
 			children = (
 				7DD40CE42DC2323F00E142E3 /* MockSplashInteractor.swift */,
 				7DD40CE82DC2328D00E142E3 /* MockSplashViewController.swift */,
-				7DD40CEA2DC232AE00E142E3 /* SplashViewModelTests.swift */,
+				7DD40CEA2DC232AE00E142E3 /* SplashPresenterTests.swift */,
 			);
 			path = splash;
 			sourceTree = "<group>";
@@ -373,6 +380,16 @@
 				7DD40D0F2DC23AA300E142E3 /* FavoriteCoreDataManager.swift */,
 			);
 			path = coreDataManagerkit;
+			sourceTree = "<group>";
+		};
+		7DD40D112DC23C4000E142E3 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				7DD40D122DC23C5D00E142E3 /* MockHomeInteractor.swift */,
+				7DD40D142DC23C8E00E142E3 /* MockHomeViewController.swift */,
+				7DD40D162DC23CB900E142E3 /* HomePresenterTests.swift */,
+			);
+			path = home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -559,9 +576,12 @@
 			files = (
 				7DD40CE72DC2325D00E142E3 /* MockPageElements.swift in Sources */,
 				7DD40CE92DC2328D00E142E3 /* MockSplashViewController.swift in Sources */,
+				7DD40D152DC23C8E00E142E3 /* MockHomeViewController.swift in Sources */,
 				7DD40C7F2DC2260E00E142E3 /* Invio_2025_USGTests.swift in Sources */,
 				7DD40CE52DC2323F00E142E3 /* MockSplashInteractor.swift in Sources */,
-				7DD40CEB2DC232AE00E142E3 /* SplashViewModelTests.swift in Sources */,
+				7DD40CEB2DC232AE00E142E3 /* SplashPresenterTests.swift in Sources */,
+				7DD40D132DC23C5D00E142E3 /* MockHomeInteractor.swift in Sources */,
+				7DD40D172DC23CB900E142E3 /* HomePresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
