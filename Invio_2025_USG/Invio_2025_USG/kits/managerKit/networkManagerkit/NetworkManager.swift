@@ -33,7 +33,6 @@ enum NetworkError : Error {
       func fetch<T>(target: NetworkPath, responseClass: T.Type) async throws -> T where T : Decodable {
           let method = Alamofire.HTTPMethod(rawValue: target.method.rawValue)
           let url = target.baseURL + target.path
-          print(url)
           let parameters = buildParams(requestType: target.requestType)
           let request = AF.request(
               url,

@@ -364,12 +364,12 @@
 		7DD40CCB2DC22E4100E142E3 /* modules */ = {
 			isa = PBXGroup;
 			children = (
-				7DFC938C2DC24C7D00AA8EAA /* cityMapModule */,
-				7DFC93832DC2482700AA8EAA /* locationMapModule */,
+				7DD40CCC2DC22E4B00E142E3 /* splashModule */,
+				7DD40CEC2DC2357300E142E3 /* homeModule */,
 				7DFC93692DC2428C00AA8EAA /* favoritesModule */,
 				7DFC93522DC23E7C00AA8EAA /* detailModule */,
-				7DD40CEC2DC2357300E142E3 /* homeModule */,
-				7DD40CCC2DC22E4B00E142E3 /* splashModule */,
+				7DFC93832DC2482700AA8EAA /* locationMapModule */,
+				7DFC938C2DC24C7D00AA8EAA /* cityMapModule */,
 			);
 			path = modules;
 			sourceTree = "<group>";

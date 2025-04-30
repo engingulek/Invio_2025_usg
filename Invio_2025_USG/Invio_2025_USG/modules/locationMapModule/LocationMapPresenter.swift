@@ -93,10 +93,8 @@ extension LocationMapPresenter : MapLocationManagerDelegate {
         }
     }
     func locationPermisson(state: LocationPermissonState) {
-        print("dsadas")
         switch state {
         case .successful:
-            print("Presenter Successful")
             mapLocationManager.requestLocationAccess()
             view?.showUserLocation()
             if isFocusTapped {

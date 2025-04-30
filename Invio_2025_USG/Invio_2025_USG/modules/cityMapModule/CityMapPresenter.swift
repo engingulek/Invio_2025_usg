@@ -72,20 +72,13 @@ extension CityMapPresenter : ViewToPresenterCityMapProtocol {
         return (element:element,distance:"\(String(format: "%.2f", result)) \(type)")
     }
     
-  
-    
-   
-    
-   
-
-    
-    
   private func  pinCreateOnMap() {
         locationList.enumerated().forEach { index,_ in
             let item = locationList[index]
             if index == selectedIndex {
                 view?.onMap(
-                            annotationCoordinate: AnnotationCoordinate(latitude: item.coordinates.lat, longitude: item.coordinates.lng, meters: 4000, type: .star))
+                            annotationCoordinate: AnnotationCoordinate(
+                                latitude: item.coordinates.lat, longitude: item.coordinates.lng, meters: 4000, type: .star))
             }else{
                 view?.addDifferentLocations(annotationCoordinate: AnnotationCoordinate(
                     latitude:item.coordinates.lat , longitude: item.coordinates.lng, meters: 4000, type: .pin))
@@ -102,11 +95,7 @@ extension CityMapPresenter : ViewToPresenterCityMapProtocol {
     
     func getCityElement(cityElement: CityElement) {
         cityValue = cityElement
-      
-     
-        
     }
-    
     
     func onTappedToDetailButton(itemIndex:Int) {
         let element = locationList[itemIndex]
@@ -116,8 +105,6 @@ extension CityMapPresenter : ViewToPresenterCityMapProtocol {
 
 extension CityMapPresenter : MapLocationManagerDelegate {
   
-    
-    
     func focusUserLocation(state: FocusUserLocationState) {
         switch state {
         case .focus:
@@ -130,10 +117,9 @@ extension CityMapPresenter : MapLocationManagerDelegate {
     }
     
     func locationPermisson(state: LocationPermissonState) {
-       print("testila")
+        
         switch state {
         case .successful:
-            print("Presenter Successful")
             mapLocationManager.requestLocationAccess()
             view?.showUserLocation()
             if isFocusTapped {
@@ -141,13 +127,8 @@ extension CityMapPresenter : MapLocationManagerDelegate {
             }
             
         case .notDetermined:
-         
-            
-            print("can 1")
             createAlertMessage()
-          //  MapLocationManager.shared.requestLocationAccess()
         case .denied:
-            //view?.openSettingsPage()
             if(isFocusTapped){
                 view?.openSettingsPage()
             }else{

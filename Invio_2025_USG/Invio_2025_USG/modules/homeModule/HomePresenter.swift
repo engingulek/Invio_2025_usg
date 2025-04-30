@@ -93,7 +93,6 @@ extension HomePresenter {
         return cityList.count
     }
     
-   
     func numberOfRowsInSection(in section:Int) -> Int {
         let item = cityList[section]
         guard let isExpend = item.isExpend else {return 0}
