@@ -9,12 +9,36 @@
 /* Begin PBXBuildFile section */
 		7DD40C682DC2260C00E142E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40C672DC2260C00E142E3 /* AppDelegate.swift */; };
 		7DD40C6A2DC2260C00E142E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40C692DC2260C00E142E3 /* SceneDelegate.swift */; };
-		7DD40C6C2DC2260C00E142E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40C6B2DC2260C00E142E3 /* ViewController.swift */; };
 		7DD40C712DC2260E00E142E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DD40C702DC2260E00E142E3 /* Assets.xcassets */; };
 		7DD40C742DC2260E00E142E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD40C722DC2260E00E142E3 /* LaunchScreen.storyboard */; };
 		7DD40C7F2DC2260E00E142E3 /* Invio_2025_USGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40C7E2DC2260E00E142E3 /* Invio_2025_USGTests.swift */; };
 		7DD40C892DC2260E00E142E3 /* Invio_2025_USGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40C882DC2260E00E142E3 /* Invio_2025_USGUITests.swift */; };
 		7DD40C8B2DC2260E00E142E3 /* Invio_2025_USGUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40C8A2DC2260E00E142E3 /* Invio_2025_USGUITestsLaunchTests.swift */; };
+		7DD40CA12DC22AE700E142E3 /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CA02DC22AE700E142E3 /* LabelFactory.swift */; };
+		7DD40CA42DC22B1800E142E3 /* IconTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CA32DC22B1800E142E3 /* IconTheme.swift */; };
+		7DD40CA62DC22B2800E142E3 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CA52DC22B2800E142E3 /* ColorTheme.swift */; };
+		7DD40CA82DC22B3F00E142E3 /* TextTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CA72DC22B3F00E142E3 /* TextTheme.swift */; };
+		7DD40CB02DC22BB600E142E3 /* UIColor+Extension(s).swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CAF2DC22BB600E142E3 /* UIColor+Extension(s).swift */; };
+		7DD40CB32DC22C4200E142E3 /* ViewControllerAbles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CB22DC22C4200E142E3 /* ViewControllerAbles.swift */; };
+		7DD40CBD2DC22D4B00E142E3 /* ResultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CBC2DC22D4B00E142E3 /* ResultData.swift */; };
+		7DD40CC02DC22D7100E142E3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7DD40CBF2DC22D7100E142E3 /* Alamofire */; };
+		7DD40CC22DC22D7100E142E3 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 7DD40CC12DC22D7100E142E3 /* AlamofireDynamic */; };
+		7DD40CC42DC22D7D00E142E3 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CC32DC22D7D00E142E3 /* TargetType.swift */; };
+		7DD40CC62DC22D9A00E142E3 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CC52DC22D9A00E142E3 /* NetworkConstants.swift */; };
+		7DD40CC82DC22DBE00E142E3 /* NetworkPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CC72DC22DBE00E142E3 /* NetworkPath.swift */; };
+		7DD40CCA2DC22DDB00E142E3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CC92DC22DDB00E142E3 /* NetworkManager.swift */; };
+		7DD40CCE2DC22E5E00E142E3 /* SplashProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CCD2DC22E5E00E142E3 /* SplashProtocols.swift */; };
+		7DD40CD02DC22EC300E142E3 /* SplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CCF2DC22EC300E142E3 /* SplashInteractor.swift */; };
+		7DD40CD22DC22FB500E142E3 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CD12DC22FB500E142E3 /* SplashPresenter.swift */; };
+		7DD40CD42DC22FF300E142E3 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CD32DC22FF300E142E3 /* SplashViewController.swift */; };
+		7DD40CD72DC2300F00E142E3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7DD40CD62DC2300F00E142E3 /* SnapKit */; };
+		7DD40CD92DC2300F00E142E3 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 7DD40CD82DC2300F00E142E3 /* SnapKit-Dynamic */; };
+		7DD40CDB2DC2303C00E142E3 /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CDA2DC2303C00E142E3 /* SplashRouter.swift */; };
+		7DD40CDE2DC2317A00E142E3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DD40CE02DC2317A00E142E3 /* Localizable.strings */; };
+		7DD40CE52DC2323F00E142E3 /* MockSplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CE42DC2323F00E142E3 /* MockSplashInteractor.swift */; };
+		7DD40CE72DC2325D00E142E3 /* MockPageElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CE62DC2325D00E142E3 /* MockPageElements.swift */; };
+		7DD40CE92DC2328D00E142E3 /* MockSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CE82DC2328D00E142E3 /* MockSplashViewController.swift */; };
+		7DD40CEB2DC232AE00E142E3 /* SplashViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CEA2DC232AE00E142E3 /* SplashViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +62,6 @@
 		7DD40C642DC2260C00E142E3 /* Invio_2025_USG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Invio_2025_USG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD40C672DC2260C00E142E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DD40C692DC2260C00E142E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7DD40C6B2DC2260C00E142E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7DD40C702DC2260E00E142E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DD40C732DC2260E00E142E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DD40C752DC2260E00E142E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +70,29 @@
 		7DD40C842DC2260E00E142E3 /* Invio_2025_USGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Invio_2025_USGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD40C882DC2260E00E142E3 /* Invio_2025_USGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invio_2025_USGUITests.swift; sourceTree = "<group>"; };
 		7DD40C8A2DC2260E00E142E3 /* Invio_2025_USGUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invio_2025_USGUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7DD40CA02DC22AE700E142E3 /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
+		7DD40CA32DC22B1800E142E3 /* IconTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTheme.swift; sourceTree = "<group>"; };
+		7DD40CA52DC22B2800E142E3 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
+		7DD40CA72DC22B3F00E142E3 /* TextTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTheme.swift; sourceTree = "<group>"; };
+		7DD40CAF2DC22BB600E142E3 /* UIColor+Extension(s).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension(s).swift"; sourceTree = "<group>"; };
+		7DD40CB22DC22C4200E142E3 /* ViewControllerAbles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAbles.swift; sourceTree = "<group>"; };
+		7DD40CBC2DC22D4B00E142E3 /* ResultData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultData.swift; sourceTree = "<group>"; };
+		7DD40CC32DC22D7D00E142E3 /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		7DD40CC52DC22D9A00E142E3 /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		7DD40CC72DC22DBE00E142E3 /* NetworkPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPath.swift; sourceTree = "<group>"; };
+		7DD40CC92DC22DDB00E142E3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7DD40CCD2DC22E5E00E142E3 /* SplashProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashProtocols.swift; sourceTree = "<group>"; };
+		7DD40CCF2DC22EC300E142E3 /* SplashInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInteractor.swift; sourceTree = "<group>"; };
+		7DD40CD12DC22FB500E142E3 /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
+		7DD40CD32DC22FF300E142E3 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		7DD40CDA2DC2303C00E142E3 /* SplashRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRouter.swift; sourceTree = "<group>"; };
+		7DD40CDF2DC2317A00E142E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7DD40CE12DC2319D00E142E3 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		7DD40CE22DC2319D00E142E3 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7DD40CE42DC2323F00E142E3 /* MockSplashInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSplashInteractor.swift; sourceTree = "<group>"; };
+		7DD40CE62DC2325D00E142E3 /* MockPageElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPageElements.swift; sourceTree = "<group>"; };
+		7DD40CE82DC2328D00E142E3 /* MockSplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSplashViewController.swift; sourceTree = "<group>"; };
+		7DD40CEA2DC232AE00E142E3 /* SplashViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +100,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DD40CD72DC2300F00E142E3 /* SnapKit in Frameworks */,
+				7DD40CC02DC22D7100E142E3 /* Alamofire in Frameworks */,
+				7DD40CC22DC22D7100E142E3 /* AlamofireDynamic in Frameworks */,
+				7DD40CD92DC2300F00E142E3 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,12 +147,14 @@
 		7DD40C662DC2260C00E142E3 /* Invio_2025_USG */ = {
 			isa = PBXGroup;
 			children = (
+				7DD40C9E2DC22AB400E142E3 /* kits */,
+				7DD40CCB2DC22E4100E142E3 /* modules */,
 				7DD40C672DC2260C00E142E3 /* AppDelegate.swift */,
 				7DD40C692DC2260C00E142E3 /* SceneDelegate.swift */,
-				7DD40C6B2DC2260C00E142E3 /* ViewController.swift */,
 				7DD40C702DC2260E00E142E3 /* Assets.xcassets */,
 				7DD40C722DC2260E00E142E3 /* LaunchScreen.storyboard */,
 				7DD40C752DC2260E00E142E3 /* Info.plist */,
+				7DD40CE02DC2317A00E142E3 /* Localizable.strings */,
 			);
 			path = Invio_2025_USG;
 			sourceTree = "<group>";
@@ -110,7 +162,9 @@
 		7DD40C7D2DC2260E00E142E3 /* Invio_2025_USGTests */ = {
 			isa = PBXGroup;
 			children = (
+				7DD40CE32DC2322600E142E3 /* splash */,
 				7DD40C7E2DC2260E00E142E3 /* Invio_2025_USGTests.swift */,
+				7DD40CE62DC2325D00E142E3 /* MockPageElements.swift */,
 			);
 			path = Invio_2025_USGTests;
 			sourceTree = "<group>";
@@ -122,6 +176,110 @@
 				7DD40C8A2DC2260E00E142E3 /* Invio_2025_USGUITestsLaunchTests.swift */,
 			);
 			path = Invio_2025_USGUITests;
+			sourceTree = "<group>";
+		};
+		7DD40C9E2DC22AB400E142E3 /* kits */ = {
+			isa = PBXGroup;
+			children = (
+				7DD40CBA2DC22D2000E142E3 /* managerKit */,
+				7DD40CB12DC22BD700E142E3 /* viewControllerAbleKit */,
+				7DD40C9F2DC22AD200E142E3 /* factoryKit */,
+				7DD40CAB2DC22B7B00E142E3 /* coreKit */,
+			);
+			path = kits;
+			sourceTree = "<group>";
+		};
+		7DD40C9F2DC22AD200E142E3 /* factoryKit */ = {
+			isa = PBXGroup;
+			children = (
+				7DD40CA02DC22AE700E142E3 /* LabelFactory.swift */,
+			);
+			path = factoryKit;
+			sourceTree = "<group>";
+		};
+		7DD40CA22DC22B0900E142E3 /* theme */ = {
+			isa = PBXGroup;
+			children = (
+				7DD40CA32DC22B1800E142E3 /* IconTheme.swift */,
+				7DD40CA52DC22B2800E142E3 /* ColorTheme.swift */,
+				7DD40CA72DC22B3F00E142E3 /* TextTheme.swift */,
+			);
+			path = theme;
+			sourceTree = "<group>";
+		};
+		7DD40CAB2DC22B7B00E142E3 /* coreKit */ = {
+			isa = PBXGroup;
+			children = (
+				7DD40CAE2DC22BA400E142E3 /* extensions */,
+				7DD40CA22DC22B0900E142E3 /* theme */,
+			);
+			path = coreKit;
+			sourceTree = "<group>";
+		};
+		7DD40CAE2DC22BA400E142E3 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7DD40CAF2DC22BB600E142E3 /* UIColor+Extension(s).swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		7DD40CB12DC22BD700E142E3 /* viewControllerAbleKit */ = {
+			isa = PBXGroup;
+			children = (
+				7DD40CB22DC22C4200E142E3 /* ViewControllerAbles.swift */,
+			);
+			path = viewControllerAbleKit;
+			sourceTree = "<group>";
+		};
+		7DD40CBA2DC22D2000E142E3 /* managerKit */ = {
+			isa = PBXGroup;
+			children = (
+				7DD40CBB2DC22D3200E142E3 /* networkManagerkit */,
+			);
+			path = managerKit;
+			sourceTree = "<group>";
+		};
+		7DD40CBB2DC22D3200E142E3 /* networkManagerkit */ = {
+			isa = PBXGroup;
+			children = (
+				7DD40CBC2DC22D4B00E142E3 /* ResultData.swift */,
+				7DD40CC32DC22D7D00E142E3 /* TargetType.swift */,
+				7DD40CC52DC22D9A00E142E3 /* NetworkConstants.swift */,
+				7DD40CC72DC22DBE00E142E3 /* NetworkPath.swift */,
+				7DD40CC92DC22DDB00E142E3 /* NetworkManager.swift */,
+			);
+			path = networkManagerkit;
+			sourceTree = "<group>";
+		};
+		7DD40CCB2DC22E4100E142E3 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				7DD40CCC2DC22E4B00E142E3 /* splashModule */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		7DD40CCC2DC22E4B00E142E3 /* splashModule */ = {
+			isa = PBXGroup;
+			children = (
+				7DD40CCD2DC22E5E00E142E3 /* SplashProtocols.swift */,
+				7DD40CCF2DC22EC300E142E3 /* SplashInteractor.swift */,
+				7DD40CD12DC22FB500E142E3 /* SplashPresenter.swift */,
+				7DD40CD32DC22FF300E142E3 /* SplashViewController.swift */,
+				7DD40CDA2DC2303C00E142E3 /* SplashRouter.swift */,
+			);
+			path = splashModule;
+			sourceTree = "<group>";
+		};
+		7DD40CE32DC2322600E142E3 /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				7DD40CE42DC2323F00E142E3 /* MockSplashInteractor.swift */,
+				7DD40CE82DC2328D00E142E3 /* MockSplashViewController.swift */,
+				7DD40CEA2DC232AE00E142E3 /* SplashViewModelTests.swift */,
+			);
+			path = splash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +298,12 @@
 			dependencies = (
 			);
 			name = Invio_2025_USG;
+			packageProductDependencies = (
+				7DD40CBF2DC22D7100E142E3 /* Alamofire */,
+				7DD40CC12DC22D7100E142E3 /* AlamofireDynamic */,
+				7DD40CD62DC2300F00E142E3 /* SnapKit */,
+				7DD40CD82DC2300F00E142E3 /* SnapKit-Dynamic */,
+			);
 			productName = Invio_2025_USG;
 			productReference = 7DD40C642DC2260C00E142E3 /* Invio_2025_USG.app */;
 			productType = "com.apple.product-type.application";
@@ -210,8 +374,13 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 7DD40C5B2DC2260C00E142E3;
+			packageReferences = (
+				7DD40CBE2DC22D7100E142E3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				7DD40CD52DC2300F00E142E3 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 7DD40C652DC2260C00E142E3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -229,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DD40C742DC2260E00E142E3 /* LaunchScreen.storyboard in Resources */,
+				7DD40CDE2DC2317A00E142E3 /* Localizable.strings in Resources */,
 				7DD40C712DC2260E00E142E3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,8 +424,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DD40C6C2DC2260C00E142E3 /* ViewController.swift in Sources */,
+				7DD40CCE2DC22E5E00E142E3 /* SplashProtocols.swift in Sources */,
+				7DD40CC62DC22D9A00E142E3 /* NetworkConstants.swift in Sources */,
+				7DD40CBD2DC22D4B00E142E3 /* ResultData.swift in Sources */,
+				7DD40CDB2DC2303C00E142E3 /* SplashRouter.swift in Sources */,
+				7DD40CD42DC22FF300E142E3 /* SplashViewController.swift in Sources */,
+				7DD40CA42DC22B1800E142E3 /* IconTheme.swift in Sources */,
+				7DD40CB32DC22C4200E142E3 /* ViewControllerAbles.swift in Sources */,
+				7DD40CA12DC22AE700E142E3 /* LabelFactory.swift in Sources */,
+				7DD40CD02DC22EC300E142E3 /* SplashInteractor.swift in Sources */,
+				7DD40CA62DC22B2800E142E3 /* ColorTheme.swift in Sources */,
+				7DD40CB02DC22BB600E142E3 /* UIColor+Extension(s).swift in Sources */,
+				7DD40CC82DC22DBE00E142E3 /* NetworkPath.swift in Sources */,
+				7DD40CD22DC22FB500E142E3 /* SplashPresenter.swift in Sources */,
 				7DD40C682DC2260C00E142E3 /* AppDelegate.swift in Sources */,
+				7DD40CCA2DC22DDB00E142E3 /* NetworkManager.swift in Sources */,
+				7DD40CA82DC22B3F00E142E3 /* TextTheme.swift in Sources */,
+				7DD40CC42DC22D7D00E142E3 /* TargetType.swift in Sources */,
 				7DD40C6A2DC2260C00E142E3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,7 +449,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DD40CE72DC2325D00E142E3 /* MockPageElements.swift in Sources */,
+				7DD40CE92DC2328D00E142E3 /* MockSplashViewController.swift in Sources */,
 				7DD40C7F2DC2260E00E142E3 /* Invio_2025_USGTests.swift in Sources */,
+				7DD40CE52DC2323F00E142E3 /* MockSplashInteractor.swift in Sources */,
+				7DD40CEB2DC232AE00E142E3 /* SplashViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,8 +486,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				7DD40C732DC2260E00E142E3 /* Base */,
+				7DD40CE12DC2319D00E142E3 /* tr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7DD40CE02DC2317A00E142E3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DD40CDF2DC2317A00E142E3 /* en */,
+				7DD40CE22DC2319D00E142E3 /* tr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -309,6 +508,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -372,6 +572,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -603,6 +804,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7DD40CBE2DC22D7100E142E3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		7DD40CD52DC2300F00E142E3 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7DD40CBF2DC22D7100E142E3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DD40CBE2DC22D7100E142E3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		7DD40CC12DC22D7100E142E3 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DD40CBE2DC22D7100E142E3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		7DD40CD62DC2300F00E142E3 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DD40CD52DC2300F00E142E3 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		7DD40CD82DC2300F00E142E3 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DD40CD52DC2300F00E142E3 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7DD40C5C2DC2260C00E142E3 /* Project object */;
 }

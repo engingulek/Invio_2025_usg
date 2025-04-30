@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  Invio_2025_USG
+
+  Created by Engin Gülek on 30.04.2025.
+  
+*/
+
+"splashTitle" = "Şehirdeki Önemli Konumlar";
+"errorMessage" = "Bir Şeyler Ters Gitti";
+"homeNavTitle" = "Önemli Konumlar";
+"count" = "Sayı";
+"showOnMap" = "Haritada Göster";
+"favNavTitle" = "Favoriler";
+"favEmptyMessage" = "Henüz hiç bir konumu favorilere eklemedin!";
+"warning" = "Uyarı";
+"locationAlertMessage" = "Kendi konumunu haritada görmek ister misin?";
+"yes" = "Evet";
+"no" = "Hayır";
+"getDirection" = "Yol Tarifi Al";
+"cancel" = "İptal";
+"mapType" = "Hangi Harita";
+"mapQ" = "Lütfen uygulama seçiniz";
+"goDetail" = "Detaya Git";
+"ok" = "Tamam";
+"close" = "Kapat";
+
