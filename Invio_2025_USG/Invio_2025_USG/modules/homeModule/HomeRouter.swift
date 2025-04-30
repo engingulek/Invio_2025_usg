@@ -40,7 +40,7 @@ extension HomeRouter :  PresenterToRouterHomeProtocol {
    
 
     func toCityMap(view: PresenterToViewHomeProtocol?, cityElement: CityElement) {
-        //let viewController = CityMapRouter.crateCityMapModule(cityElement: cityElement)
-       // view?.pushViewControllerAble(viewController, animated: true)
+        let viewController = CityMapRouter.crateCityMapModule(cityElement: cityElement)
+       view?.pushViewControllerAble(viewController, animated: true)
     }
 }
