@@ -34,8 +34,8 @@ extension HomeRouter :  PresenterToRouterHomeProtocol {
     }
    
     func toDetailScreen(view: PresenterToViewHomeProtocol?, locationData: LocationElement) {
-      //  let viewController = DetailRouter.createDetailModule(locationElement: locationData)
-      //  view?.pushViewControllerAble(viewController, animated: true)
+      let viewController = DetailRouter.createDetailModule(locationElement: locationData)
+      view?.pushViewControllerAble(viewController, animated: true)
     }
    
 
