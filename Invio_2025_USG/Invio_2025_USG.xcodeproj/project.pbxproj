@@ -74,6 +74,7 @@
 		7DFC93742DC2433100AA8EAA /* FavoritesVC+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93732DC2433100AA8EAA /* FavoritesVC+UITableView.swift */; };
 		7DFC93762DC2434000AA8EAA /* FavTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93752DC2434000AA8EAA /* FavTVC.swift */; };
 		7DFC93782DC2436600AA8EAA /* FavoritesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93772DC2436600AA8EAA /* FavoritesRouter.swift */; };
+		7DFC937B2DC2459D00AA8EAA /* MapLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC937A2DC2459D00AA8EAA /* MapLocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -162,6 +163,7 @@
 		7DFC93732DC2433100AA8EAA /* FavoritesVC+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavoritesVC+UITableView.swift"; sourceTree = "<group>"; };
 		7DFC93752DC2434000AA8EAA /* FavTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavTVC.swift; sourceTree = "<group>"; };
 		7DFC93772DC2436600AA8EAA /* FavoritesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesRouter.swift; sourceTree = "<group>"; };
+		7DFC937A2DC2459D00AA8EAA /* MapLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -311,6 +313,7 @@
 		7DD40CBA2DC22D2000E142E3 /* managerKit */ = {
 			isa = PBXGroup;
 			children = (
+				7DFC93792DC2458100AA8EAA /* mapLocationManager */,
 				7DD40D0C2DC23A7500E142E3 /* coreDataManagerkit */,
 				7DD40CBB2DC22D3200E142E3 /* networkManagerkit */,
 			);
@@ -472,6 +475,14 @@
 				7DFC93752DC2434000AA8EAA /* FavTVC.swift */,
 			);
 			path = viewController;
+			sourceTree = "<group>";
+		};
+		7DFC93792DC2458100AA8EAA /* mapLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				7DFC937A2DC2459D00AA8EAA /* MapLocationManager.swift */,
+			);
+			path = mapLocationManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -658,6 +669,7 @@
 				7DD40CA82DC22B3F00E142E3 /* TextTheme.swift in Sources */,
 				7DD40CC42DC22D7D00E142E3 /* TargetType.swift in Sources */,
 				7DFC93612DC23F3600AA8EAA /* UIImageView+Extension(s).swift in Sources */,
+				7DFC937B2DC2459D00AA8EAA /* MapLocationManager.swift in Sources */,
 				7DFC93782DC2436600AA8EAA /* FavoritesRouter.swift in Sources */,
 				7DFC936B2DC2429F00AA8EAA /* FavoritesProtocols.swift in Sources */,
 				7DD40D082DC2397300E142E3 /* UIActivityIndicatorView+Extension(s).swift in Sources */,
