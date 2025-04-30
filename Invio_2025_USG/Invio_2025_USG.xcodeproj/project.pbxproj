@@ -57,6 +57,16 @@
 		7DD40D132DC23C5D00E142E3 /* MockHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40D122DC23C5D00E142E3 /* MockHomeInteractor.swift */; };
 		7DD40D152DC23C8E00E142E3 /* MockHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40D142DC23C8E00E142E3 /* MockHomeViewController.swift */; };
 		7DD40D172DC23CB900E142E3 /* HomePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40D162DC23CB900E142E3 /* HomePresenterTests.swift */; };
+		7DFC93542DC23E9C00AA8EAA /* DetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93532DC23E9C00AA8EAA /* DetailProtocols.swift */; };
+		7DFC93562DC23EAF00AA8EAA /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93552DC23EAF00AA8EAA /* DetailRouter.swift */; };
+		7DFC93582DC23ECE00AA8EAA /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93572DC23ECE00AA8EAA /* DetailInteractor.swift */; };
+		7DFC935A2DC23EE900AA8EAA /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93592DC23EE900AA8EAA /* DetailPresenter.swift */; };
+		7DFC935C2DC23EFC00AA8EAA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC935B2DC23EFC00AA8EAA /* DetailViewController.swift */; };
+		7DFC935F2DC23F2000AA8EAA /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7DFC935E2DC23F2000AA8EAA /* Kingfisher */; };
+		7DFC93612DC23F3600AA8EAA /* UIImageView+Extension(s).swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93602DC23F3600AA8EAA /* UIImageView+Extension(s).swift */; };
+		7DFC93642DC240BA00AA8EAA /* MockDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93632DC240BA00AA8EAA /* MockDetailInteractor.swift */; };
+		7DFC93662DC240DF00AA8EAA /* MockDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93652DC240DF00AA8EAA /* MockDetailViewController.swift */; };
+		7DFC93682DC2411600AA8EAA /* DetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93672DC2411600AA8EAA /* DetailViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +139,15 @@
 		7DD40D122DC23C5D00E142E3 /* MockHomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHomeInteractor.swift; sourceTree = "<group>"; };
 		7DD40D142DC23C8E00E142E3 /* MockHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHomeViewController.swift; sourceTree = "<group>"; };
 		7DD40D162DC23CB900E142E3 /* HomePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenterTests.swift; sourceTree = "<group>"; };
+		7DFC93532DC23E9C00AA8EAA /* DetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProtocols.swift; sourceTree = "<group>"; };
+		7DFC93552DC23EAF00AA8EAA /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		7DFC93572DC23ECE00AA8EAA /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		7DFC93592DC23EE900AA8EAA /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		7DFC935B2DC23EFC00AA8EAA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7DFC93602DC23F3600AA8EAA /* UIImageView+Extension(s).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension(s).swift"; sourceTree = "<group>"; };
+		7DFC93632DC240BA00AA8EAA /* MockDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDetailInteractor.swift; sourceTree = "<group>"; };
+		7DFC93652DC240DF00AA8EAA /* MockDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDetailViewController.swift; sourceTree = "<group>"; };
+		7DFC93672DC2411600AA8EAA /* DetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +159,7 @@
 				7DD40CC02DC22D7100E142E3 /* Alamofire in Frameworks */,
 				7DD40CC22DC22D7100E142E3 /* AlamofireDynamic in Frameworks */,
 				7DD40CD92DC2300F00E142E3 /* SnapKit-Dynamic in Frameworks */,
+				7DFC935F2DC23F2000AA8EAA /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +219,7 @@
 		7DD40C7D2DC2260E00E142E3 /* Invio_2025_USGTests */ = {
 			isa = PBXGroup;
 			children = (
+				7DFC93622DC240A400AA8EAA /* detail */,
 				7DD40D112DC23C4000E142E3 /* home */,
 				7DD40CE32DC2322600E142E3 /* splash */,
 				7DD40C7E2DC2260E00E142E3 /* Invio_2025_USGTests.swift */,
@@ -260,6 +281,7 @@
 			children = (
 				7DD40CAF2DC22BB600E142E3 /* UIColor+Extension(s).swift */,
 				7DD40D072DC2397300E142E3 /* UIActivityIndicatorView+Extension(s).swift */,
+				7DFC93602DC23F3600AA8EAA /* UIImageView+Extension(s).swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -296,6 +318,7 @@
 		7DD40CCB2DC22E4100E142E3 /* modules */ = {
 			isa = PBXGroup;
 			children = (
+				7DFC93522DC23E7C00AA8EAA /* detailModule */,
 				7DD40CEC2DC2357300E142E3 /* homeModule */,
 				7DD40CCC2DC22E4B00E142E3 /* splashModule */,
 			);
@@ -392,6 +415,28 @@
 			path = home;
 			sourceTree = "<group>";
 		};
+		7DFC93522DC23E7C00AA8EAA /* detailModule */ = {
+			isa = PBXGroup;
+			children = (
+				7DFC93532DC23E9C00AA8EAA /* DetailProtocols.swift */,
+				7DFC93552DC23EAF00AA8EAA /* DetailRouter.swift */,
+				7DFC93572DC23ECE00AA8EAA /* DetailInteractor.swift */,
+				7DFC93592DC23EE900AA8EAA /* DetailPresenter.swift */,
+				7DFC935B2DC23EFC00AA8EAA /* DetailViewController.swift */,
+			);
+			path = detailModule;
+			sourceTree = "<group>";
+		};
+		7DFC93622DC240A400AA8EAA /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				7DFC93632DC240BA00AA8EAA /* MockDetailInteractor.swift */,
+				7DFC93652DC240DF00AA8EAA /* MockDetailViewController.swift */,
+				7DFC93672DC2411600AA8EAA /* DetailViewModelTests.swift */,
+			);
+			path = detail;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -413,6 +458,7 @@
 				7DD40CC12DC22D7100E142E3 /* AlamofireDynamic */,
 				7DD40CD62DC2300F00E142E3 /* SnapKit */,
 				7DD40CD82DC2300F00E142E3 /* SnapKit-Dynamic */,
+				7DFC935E2DC23F2000AA8EAA /* Kingfisher */,
 			);
 			productName = Invio_2025_USG;
 			productReference = 7DD40C642DC2260C00E142E3 /* Invio_2025_USG.app */;
@@ -490,6 +536,7 @@
 			packageReferences = (
 				7DD40CBE2DC22D7100E142E3 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				7DD40CD52DC2300F00E142E3 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				7DFC935D2DC23F2000AA8EAA /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 7DD40C652DC2260C00E142E3 /* Products */;
 			projectDirPath = "";
@@ -537,11 +584,15 @@
 				7DD40CCE2DC22E5E00E142E3 /* SplashProtocols.swift in Sources */,
 				7DD40CC62DC22D9A00E142E3 /* NetworkConstants.swift in Sources */,
 				7DD40D0B2DC23A3F00E142E3 /* Database.xcdatamodeld in Sources */,
+				7DFC93582DC23ECE00AA8EAA /* DetailInteractor.swift in Sources */,
 				7DD40CEE2DC2363C00E142E3 /* HomeProtocols.swift in Sources */,
 				7DD40CBD2DC22D4B00E142E3 /* ResultData.swift in Sources */,
+				7DFC93562DC23EAF00AA8EAA /* DetailRouter.swift in Sources */,
+				7DFC935A2DC23EE900AA8EAA /* DetailPresenter.swift in Sources */,
 				7DD40CDB2DC2303C00E142E3 /* SplashRouter.swift in Sources */,
 				7DD40CD42DC22FF300E142E3 /* SplashViewController.swift in Sources */,
 				7DD40CF72DC2371200E142E3 /* HomeViewController.swift in Sources */,
+				7DFC93542DC23E9C00AA8EAA /* DetailProtocols.swift in Sources */,
 				7DD40CF22DC236A600E142E3 /* HomeInteractor.swift in Sources */,
 				7DD40CFF2DC2387000E142E3 /* HomeVC + CityHeaderViewOnTVCDelegate.swift in Sources */,
 				7DD40CA42DC22B1800E142E3 /* IconTheme.swift in Sources */,
@@ -559,10 +610,12 @@
 				7DD40CF92DC2373200E142E3 /* ButtonFactory.swift in Sources */,
 				7DD40D0E2DC23A8E00E142E3 /* CoreDataManaging.swift in Sources */,
 				7DD40CCA2DC22DDB00E142E3 /* NetworkManager.swift in Sources */,
+				7DFC935C2DC23EFC00AA8EAA /* DetailViewController.swift in Sources */,
 				7DD40D062DC2394D00E142E3 /* HomeVC+UITableView.swift in Sources */,
 				7DD40D042DC238B500E142E3 /* HomeVC+LocationTVCDelegate.swift in Sources */,
 				7DD40CA82DC22B3F00E142E3 /* TextTheme.swift in Sources */,
 				7DD40CC42DC22D7D00E142E3 /* TargetType.swift in Sources */,
+				7DFC93612DC23F3600AA8EAA /* UIImageView+Extension(s).swift in Sources */,
 				7DD40D082DC2397300E142E3 /* UIActivityIndicatorView+Extension(s).swift in Sources */,
 				7DD40CFD2DC2385600E142E3 /* CityHeaderViewOnTVC.swift in Sources */,
 				7DD40C6A2DC2260C00E142E3 /* SceneDelegate.swift in Sources */,
@@ -574,12 +627,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DFC93682DC2411600AA8EAA /* DetailViewModelTests.swift in Sources */,
 				7DD40CE72DC2325D00E142E3 /* MockPageElements.swift in Sources */,
 				7DD40CE92DC2328D00E142E3 /* MockSplashViewController.swift in Sources */,
 				7DD40D152DC23C8E00E142E3 /* MockHomeViewController.swift in Sources */,
 				7DD40C7F2DC2260E00E142E3 /* Invio_2025_USGTests.swift in Sources */,
 				7DD40CE52DC2323F00E142E3 /* MockSplashInteractor.swift in Sources */,
+				7DFC93642DC240BA00AA8EAA /* MockDetailInteractor.swift in Sources */,
 				7DD40CEB2DC232AE00E142E3 /* SplashPresenterTests.swift in Sources */,
+				7DFC93662DC240DF00AA8EAA /* MockDetailViewController.swift in Sources */,
 				7DD40D132DC23C5D00E142E3 /* MockHomeInteractor.swift in Sources */,
 				7DD40D172DC23CB900E142E3 /* HomePresenterTests.swift in Sources */,
 			);
@@ -950,6 +1006,14 @@
 				minimumVersion = 5.7.1;
 			};
 		};
+		7DFC935D2DC23F2000AA8EAA /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -972,6 +1036,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7DD40CD52DC2300F00E142E3 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = "SnapKit-Dynamic";
+		};
+		7DFC935E2DC23F2000AA8EAA /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DFC935D2DC23F2000AA8EAA /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 
