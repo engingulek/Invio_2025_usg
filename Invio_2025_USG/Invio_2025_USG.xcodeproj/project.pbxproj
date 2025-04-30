@@ -82,6 +82,12 @@
 		7DFC93872DC2487500AA8EAA /* LocationMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93862DC2487500AA8EAA /* LocationMapPresenter.swift */; };
 		7DFC93892DC2489000AA8EAA /* LocationMapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93882DC2489000AA8EAA /* LocationMapRouter.swift */; };
 		7DFC938B2DC248A600AA8EAA /* LocationMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC938A2DC248A600AA8EAA /* LocationMapViewController.swift */; };
+		7DFC938E2DC24C9F00AA8EAA /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC938D2DC24C9F00AA8EAA /* UICollectionView+Extension.swift */; };
+		7DFC93902DC24CC000AA8EAA /* CityMapProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC938F2DC24CC000AA8EAA /* CityMapProtocols.swift */; };
+		7DFC93922DC24CDD00AA8EAA /* CityMapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93912DC24CDD00AA8EAA /* CityMapRouter.swift */; };
+		7DFC93942DC24CF100AA8EAA /* CityMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93932DC24CF100AA8EAA /* CityMapPresenter.swift */; };
+		7DFC93962DC24D0D00AA8EAA /* LocationCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93952DC24D0D00AA8EAA /* LocationCVC.swift */; };
+		7DFC93982DC24D2500AA8EAA /* CityMapScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93972DC24D2500AA8EAA /* CityMapScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -178,6 +184,12 @@
 		7DFC93862DC2487500AA8EAA /* LocationMapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapPresenter.swift; sourceTree = "<group>"; };
 		7DFC93882DC2489000AA8EAA /* LocationMapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapRouter.swift; sourceTree = "<group>"; };
 		7DFC938A2DC248A600AA8EAA /* LocationMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapViewController.swift; sourceTree = "<group>"; };
+		7DFC938D2DC24C9F00AA8EAA /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		7DFC938F2DC24CC000AA8EAA /* CityMapProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityMapProtocols.swift; sourceTree = "<group>"; };
+		7DFC93912DC24CDD00AA8EAA /* CityMapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityMapRouter.swift; sourceTree = "<group>"; };
+		7DFC93932DC24CF100AA8EAA /* CityMapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityMapPresenter.swift; sourceTree = "<group>"; };
+		7DFC93952DC24D0D00AA8EAA /* LocationCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCVC.swift; sourceTree = "<group>"; };
+		7DFC93972DC24D2500AA8EAA /* CityMapScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityMapScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -314,6 +326,7 @@
 				7DD40CAF2DC22BB600E142E3 /* UIColor+Extension(s).swift */,
 				7DD40D072DC2397300E142E3 /* UIActivityIndicatorView+Extension(s).swift */,
 				7DFC93602DC23F3600AA8EAA /* UIImageView+Extension(s).swift */,
+				7DFC938D2DC24C9F00AA8EAA /* UICollectionView+Extension.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -351,6 +364,7 @@
 		7DD40CCB2DC22E4100E142E3 /* modules */ = {
 			isa = PBXGroup;
 			children = (
+				7DFC938C2DC24C7D00AA8EAA /* cityMapModule */,
 				7DFC93832DC2482700AA8EAA /* locationMapModule */,
 				7DFC93692DC2428C00AA8EAA /* favoritesModule */,
 				7DFC93522DC23E7C00AA8EAA /* detailModule */,
@@ -522,6 +536,18 @@
 			path = locationMapModule;
 			sourceTree = "<group>";
 		};
+		7DFC938C2DC24C7D00AA8EAA /* cityMapModule */ = {
+			isa = PBXGroup;
+			children = (
+				7DFC938F2DC24CC000AA8EAA /* CityMapProtocols.swift */,
+				7DFC93912DC24CDD00AA8EAA /* CityMapRouter.swift */,
+				7DFC93932DC24CF100AA8EAA /* CityMapPresenter.swift */,
+				7DFC93952DC24D0D00AA8EAA /* LocationCVC.swift */,
+				7DFC93972DC24D2500AA8EAA /* CityMapScreenViewController.swift */,
+			);
+			path = cityMapModule;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -667,6 +693,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DFC93852DC2484500AA8EAA /* LocationMapProtocols.swift in Sources */,
+				7DFC938E2DC24C9F00AA8EAA /* UICollectionView+Extension.swift in Sources */,
 				7DD40CCE2DC22E5E00E142E3 /* SplashProtocols.swift in Sources */,
 				7DFC937E2DC245FE00AA8EAA /* MapView.swift in Sources */,
 				7DD40CC62DC22D9A00E142E3 /* NetworkConstants.swift in Sources */,
@@ -689,13 +716,16 @@
 				7DFC938B2DC248A600AA8EAA /* LocationMapViewController.swift in Sources */,
 				7DD40CA42DC22B1800E142E3 /* IconTheme.swift in Sources */,
 				7DD40CB32DC22C4200E142E3 /* ViewControllerAbles.swift in Sources */,
+				7DFC93942DC24CF100AA8EAA /* CityMapPresenter.swift in Sources */,
 				7DD40CA12DC22AE700E142E3 /* LabelFactory.swift in Sources */,
+				7DFC93982DC24D2500AA8EAA /* CityMapScreenViewController.swift in Sources */,
 				7DFC93822DC2464E00AA8EAA /* MapEnumTypes.swift in Sources */,
 				7DD40D022DC2389000E142E3 /* LocationTVC.swift in Sources */,
 				7DD40CF02DC2368400E142E3 /* HomeRouter.swift in Sources */,
 				7DFC936F2DC242DE00AA8EAA /* FavoritesPresenter.swift in Sources */,
 				7DD40CD02DC22EC300E142E3 /* SplashInteractor.swift in Sources */,
 				7DD40CA62DC22B2800E142E3 /* ColorTheme.swift in Sources */,
+				7DFC93962DC24D0D00AA8EAA /* LocationCVC.swift in Sources */,
 				7DD40CB02DC22BB600E142E3 /* UIColor+Extension(s).swift in Sources */,
 				7DD40D102DC23AA300E142E3 /* FavoriteCoreDataManager.swift in Sources */,
 				7DD40CC82DC22DBE00E142E3 /* NetworkPath.swift in Sources */,
@@ -706,6 +736,7 @@
 				7DFC93762DC2434000AA8EAA /* FavTVC.swift in Sources */,
 				7DD40D0E2DC23A8E00E142E3 /* CoreDataManaging.swift in Sources */,
 				7DD40CCA2DC22DDB00E142E3 /* NetworkManager.swift in Sources */,
+				7DFC93922DC24CDD00AA8EAA /* CityMapRouter.swift in Sources */,
 				7DFC935C2DC23EFC00AA8EAA /* DetailViewController.swift in Sources */,
 				7DD40D062DC2394D00E142E3 /* HomeVC+UITableView.swift in Sources */,
 				7DD40D042DC238B500E142E3 /* HomeVC+LocationTVCDelegate.swift in Sources */,
@@ -718,6 +749,7 @@
 				7DFC936B2DC2429F00AA8EAA /* FavoritesProtocols.swift in Sources */,
 				7DD40D082DC2397300E142E3 /* UIActivityIndicatorView+Extension(s).swift in Sources */,
 				7DD40CFD2DC2385600E142E3 /* CityHeaderViewOnTVC.swift in Sources */,
+				7DFC93902DC24CC000AA8EAA /* CityMapProtocols.swift in Sources */,
 				7DD40C6A2DC2260C00E142E3 /* SceneDelegate.swift in Sources */,
 				7DD40CF42DC236E800E142E3 /* HomePresenter.swift in Sources */,
 			);
