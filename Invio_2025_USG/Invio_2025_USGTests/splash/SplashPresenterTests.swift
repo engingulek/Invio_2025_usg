@@ -7,7 +7,7 @@
 
 import XCTest
 @testable import Invio_2025_USG
-final class SplashViewModelTests : XCTestCase {
+final class SplashPresenterTests : XCTestCase {
     private var viewController : MockSplashViewController!
     private var interactor : MockSplashInteractor!
     private var presenter : SplashPresenter!

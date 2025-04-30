@@ -26,7 +26,7 @@ class SplashRouter {
 //MARK: SplashRouter :  PresenterToRouterSplashProtocol
 extension SplashRouter :  PresenterToRouterSplashProtocol {
     func toHomeScreen(view:PresenterToViewSplashProtocol?,pageElement:PageElement) {
-       // let viewController = HomeRouter.createHomeModule(pageElement: pageElement)
-       // view?.pushViewControllerAble(viewController, animated: true)
+       let viewController = HomeRouter.createHomeModule(pageElement: pageElement)
+       view?.pushViewControllerAble(viewController, animated: true)
     }
 }
