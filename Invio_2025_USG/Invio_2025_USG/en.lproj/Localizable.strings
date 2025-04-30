@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  Invio_2025_USG
+
+  Created by Engin Gülek on 30.04.2025.
+  
+*/
+
+"splashTitle" = "Important Locations in the City";
+"errorMessage" = "Something Went Wrong";
+"homeNavTitle" = "Important Attractions";
+"count" = "Count";
+"showOnMap" = "Show On Map";
+"favNavTitle" = "Favorites";
+"favEmptyMessage" = "You haven't added any locations to your favorites yet!";
+"warning" = "Warning";
+"locationAlertMessage" = "Do you want to see your own location on the map?";
+"yes" = "Yes";
+"no" = "No";
+"getDirection" = "Get Direction";
+"cancel" = "Cancel";
+"mapType" = "Which Map";
+"mapQ" = "Please select application";
+"goDetail" = "Go Detail";
+"ok" = "Ok";
+"close" = "Close";
