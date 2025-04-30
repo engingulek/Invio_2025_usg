@@ -29,8 +29,8 @@ class HomeRouter {
 extension HomeRouter :  PresenterToRouterHomeProtocol {
    
     func toFavoritesScreen(view:PresenterToViewHomeProtocol?) {
-       // let viewController = FavoritesRouter.createFavModule()
-      //  view?.pushViewControllerAble(viewController, animated: true)
+        let viewController = FavoritesRouter.createFavModule()
+        view?.pushViewControllerAble(viewController, animated: true)
     }
    
     func toDetailScreen(view: PresenterToViewHomeProtocol?, locationData: LocationElement) {

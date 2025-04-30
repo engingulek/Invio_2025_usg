@@ -67,6 +67,13 @@
 		7DFC93642DC240BA00AA8EAA /* MockDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93632DC240BA00AA8EAA /* MockDetailInteractor.swift */; };
 		7DFC93662DC240DF00AA8EAA /* MockDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93652DC240DF00AA8EAA /* MockDetailViewController.swift */; };
 		7DFC93682DC2411600AA8EAA /* DetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93672DC2411600AA8EAA /* DetailViewModelTests.swift */; };
+		7DFC936B2DC2429F00AA8EAA /* FavoritesProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC936A2DC2429F00AA8EAA /* FavoritesProtocols.swift */; };
+		7DFC936D2DC242BB00AA8EAA /* FavoritesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC936C2DC242BB00AA8EAA /* FavoritesInteractor.swift */; };
+		7DFC936F2DC242DE00AA8EAA /* FavoritesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC936E2DC242DE00AA8EAA /* FavoritesPresenter.swift */; };
+		7DFC93722DC2431000AA8EAA /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93712DC2431000AA8EAA /* FavoritesViewController.swift */; };
+		7DFC93742DC2433100AA8EAA /* FavoritesVC+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93732DC2433100AA8EAA /* FavoritesVC+UITableView.swift */; };
+		7DFC93762DC2434000AA8EAA /* FavTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93752DC2434000AA8EAA /* FavTVC.swift */; };
+		7DFC93782DC2436600AA8EAA /* FavoritesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93772DC2436600AA8EAA /* FavoritesRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,6 +155,13 @@
 		7DFC93632DC240BA00AA8EAA /* MockDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDetailInteractor.swift; sourceTree = "<group>"; };
 		7DFC93652DC240DF00AA8EAA /* MockDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDetailViewController.swift; sourceTree = "<group>"; };
 		7DFC93672DC2411600AA8EAA /* DetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelTests.swift; sourceTree = "<group>"; };
+		7DFC936A2DC2429F00AA8EAA /* FavoritesProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesProtocols.swift; sourceTree = "<group>"; };
+		7DFC936C2DC242BB00AA8EAA /* FavoritesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesInteractor.swift; sourceTree = "<group>"; };
+		7DFC936E2DC242DE00AA8EAA /* FavoritesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesPresenter.swift; sourceTree = "<group>"; };
+		7DFC93712DC2431000AA8EAA /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		7DFC93732DC2433100AA8EAA /* FavoritesVC+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavoritesVC+UITableView.swift"; sourceTree = "<group>"; };
+		7DFC93752DC2434000AA8EAA /* FavTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavTVC.swift; sourceTree = "<group>"; };
+		7DFC93772DC2436600AA8EAA /* FavoritesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -318,6 +332,7 @@
 		7DD40CCB2DC22E4100E142E3 /* modules */ = {
 			isa = PBXGroup;
 			children = (
+				7DFC93692DC2428C00AA8EAA /* favoritesModule */,
 				7DFC93522DC23E7C00AA8EAA /* detailModule */,
 				7DD40CEC2DC2357300E142E3 /* homeModule */,
 				7DD40CCC2DC22E4B00E142E3 /* splashModule */,
@@ -435,6 +450,28 @@
 				7DFC93672DC2411600AA8EAA /* DetailViewModelTests.swift */,
 			);
 			path = detail;
+			sourceTree = "<group>";
+		};
+		7DFC93692DC2428C00AA8EAA /* favoritesModule */ = {
+			isa = PBXGroup;
+			children = (
+				7DFC93702DC242FC00AA8EAA /* viewController */,
+				7DFC936A2DC2429F00AA8EAA /* FavoritesProtocols.swift */,
+				7DFC936C2DC242BB00AA8EAA /* FavoritesInteractor.swift */,
+				7DFC936E2DC242DE00AA8EAA /* FavoritesPresenter.swift */,
+				7DFC93772DC2436600AA8EAA /* FavoritesRouter.swift */,
+			);
+			path = favoritesModule;
+			sourceTree = "<group>";
+		};
+		7DFC93702DC242FC00AA8EAA /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				7DFC93712DC2431000AA8EAA /* FavoritesViewController.swift */,
+				7DFC93732DC2433100AA8EAA /* FavoritesVC+UITableView.swift */,
+				7DFC93752DC2434000AA8EAA /* FavTVC.swift */,
+			);
+			path = viewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -587,7 +624,10 @@
 				7DFC93582DC23ECE00AA8EAA /* DetailInteractor.swift in Sources */,
 				7DD40CEE2DC2363C00E142E3 /* HomeProtocols.swift in Sources */,
 				7DD40CBD2DC22D4B00E142E3 /* ResultData.swift in Sources */,
+				7DFC93722DC2431000AA8EAA /* FavoritesViewController.swift in Sources */,
 				7DFC93562DC23EAF00AA8EAA /* DetailRouter.swift in Sources */,
+				7DFC93742DC2433100AA8EAA /* FavoritesVC+UITableView.swift in Sources */,
+				7DFC936D2DC242BB00AA8EAA /* FavoritesInteractor.swift in Sources */,
 				7DFC935A2DC23EE900AA8EAA /* DetailPresenter.swift in Sources */,
 				7DD40CDB2DC2303C00E142E3 /* SplashRouter.swift in Sources */,
 				7DD40CD42DC22FF300E142E3 /* SplashViewController.swift in Sources */,
@@ -600,6 +640,7 @@
 				7DD40CA12DC22AE700E142E3 /* LabelFactory.swift in Sources */,
 				7DD40D022DC2389000E142E3 /* LocationTVC.swift in Sources */,
 				7DD40CF02DC2368400E142E3 /* HomeRouter.swift in Sources */,
+				7DFC936F2DC242DE00AA8EAA /* FavoritesPresenter.swift in Sources */,
 				7DD40CD02DC22EC300E142E3 /* SplashInteractor.swift in Sources */,
 				7DD40CA62DC22B2800E142E3 /* ColorTheme.swift in Sources */,
 				7DD40CB02DC22BB600E142E3 /* UIColor+Extension(s).swift in Sources */,
@@ -608,6 +649,7 @@
 				7DD40CD22DC22FB500E142E3 /* SplashPresenter.swift in Sources */,
 				7DD40C682DC2260C00E142E3 /* AppDelegate.swift in Sources */,
 				7DD40CF92DC2373200E142E3 /* ButtonFactory.swift in Sources */,
+				7DFC93762DC2434000AA8EAA /* FavTVC.swift in Sources */,
 				7DD40D0E2DC23A8E00E142E3 /* CoreDataManaging.swift in Sources */,
 				7DD40CCA2DC22DDB00E142E3 /* NetworkManager.swift in Sources */,
 				7DFC935C2DC23EFC00AA8EAA /* DetailViewController.swift in Sources */,
@@ -616,6 +658,8 @@
 				7DD40CA82DC22B3F00E142E3 /* TextTheme.swift in Sources */,
 				7DD40CC42DC22D7D00E142E3 /* TargetType.swift in Sources */,
 				7DFC93612DC23F3600AA8EAA /* UIImageView+Extension(s).swift in Sources */,
+				7DFC93782DC2436600AA8EAA /* FavoritesRouter.swift in Sources */,
+				7DFC936B2DC2429F00AA8EAA /* FavoritesProtocols.swift in Sources */,
 				7DD40D082DC2397300E142E3 /* UIActivityIndicatorView+Extension(s).swift in Sources */,
 				7DD40CFD2DC2385600E142E3 /* CityHeaderViewOnTVC.swift in Sources */,
 				7DD40C6A2DC2260C00E142E3 /* SceneDelegate.swift in Sources */,
