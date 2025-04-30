@@ -9,11 +9,11 @@ import Foundation
 
 
 class HomeInteractor : PresenterToInteractorHomeProtocol {
-  
+    
     weak var presenter : InteractorToPresenterHomeProtocol?
     private let networkManager : NetworkManagerProtocol = NetworkManager()
     
- 
+    
     func fetchPage(pageNumber: Int) async {
         guard let presenter = presenter else {return}
         
@@ -28,26 +28,26 @@ class HomeInteractor : PresenterToInteractorHomeProtocol {
     
     func isEntityExist(id: Int16)  -> Bool {
         do{
-           // let state = try FavoriteCoreDataManager.shared.isEntityExist(id: id)
-            return true  //state
+            let state = try FavoriteCoreDataManager.shared.isEntityExist(id: id)
+            return state
         }catch{
             presenter?.sendError()
             return false
         }
     }
     
-
+    
     func deleteFav(id: Int16) {
         do{
-           // try FavoriteCoreDataManager.shared.deleteEntity(id: Int16(id))
+            try FavoriteCoreDataManager.shared.deleteEntity(id: Int16(id))
         }catch{
             presenter?.sendError()
         }
     }
-
+    
     func addToFav(element: LocationElement) {
         do{
-         //   try FavoriteCoreDataManager.shared.addEntity(model: element)
+            try FavoriteCoreDataManager.shared.addEntity(model: element)
         }catch{
             presenter?.sendError()
         }

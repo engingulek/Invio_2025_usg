@@ -51,6 +51,9 @@
 		7DD40D042DC238B500E142E3 /* HomeVC+LocationTVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40D032DC238B500E142E3 /* HomeVC+LocationTVCDelegate.swift */; };
 		7DD40D062DC2394D00E142E3 /* HomeVC+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40D052DC2394D00E142E3 /* HomeVC+UITableView.swift */; };
 		7DD40D082DC2397300E142E3 /* UIActivityIndicatorView+Extension(s).swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40D072DC2397300E142E3 /* UIActivityIndicatorView+Extension(s).swift */; };
+		7DD40D0B2DC23A3F00E142E3 /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40D092DC23A3F00E142E3 /* Database.xcdatamodeld */; };
+		7DD40D0E2DC23A8E00E142E3 /* CoreDataManaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40D0D2DC23A8E00E142E3 /* CoreDataManaging.swift */; };
+		7DD40D102DC23AA300E142E3 /* FavoriteCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40D0F2DC23AA300E142E3 /* FavoriteCoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +120,9 @@
 		7DD40D032DC238B500E142E3 /* HomeVC+LocationTVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeVC+LocationTVCDelegate.swift"; sourceTree = "<group>"; };
 		7DD40D052DC2394D00E142E3 /* HomeVC+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeVC+UITableView.swift"; sourceTree = "<group>"; };
 		7DD40D072DC2397300E142E3 /* UIActivityIndicatorView+Extension(s).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Extension(s).swift"; sourceTree = "<group>"; };
+		7DD40D0A2DC23A3F00E142E3 /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
+		7DD40D0D2DC23A8E00E142E3 /* CoreDataManaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManaging.swift; sourceTree = "<group>"; };
+		7DD40D0F2DC23AA300E142E3 /* FavoriteCoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +185,7 @@
 				7DD40C722DC2260E00E142E3 /* LaunchScreen.storyboard */,
 				7DD40C752DC2260E00E142E3 /* Info.plist */,
 				7DD40CE02DC2317A00E142E3 /* Localizable.strings */,
+				7DD40D092DC23A3F00E142E3 /* Database.xcdatamodeld */,
 			);
 			path = Invio_2025_USG;
 			sourceTree = "<group>";
@@ -261,6 +268,7 @@
 		7DD40CBA2DC22D2000E142E3 /* managerKit */ = {
 			isa = PBXGroup;
 			children = (
+				7DD40D0C2DC23A7500E142E3 /* coreDataManagerkit */,
 				7DD40CBB2DC22D3200E142E3 /* networkManagerkit */,
 			);
 			path = managerKit;
@@ -356,6 +364,15 @@
 				7DD40D032DC238B500E142E3 /* HomeVC+LocationTVCDelegate.swift */,
 			);
 			path = locationTVC;
+			sourceTree = "<group>";
+		};
+		7DD40D0C2DC23A7500E142E3 /* coreDataManagerkit */ = {
+			isa = PBXGroup;
+			children = (
+				7DD40D0D2DC23A8E00E142E3 /* CoreDataManaging.swift */,
+				7DD40D0F2DC23AA300E142E3 /* FavoriteCoreDataManager.swift */,
+			);
+			path = coreDataManagerkit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -502,6 +519,7 @@
 			files = (
 				7DD40CCE2DC22E5E00E142E3 /* SplashProtocols.swift in Sources */,
 				7DD40CC62DC22D9A00E142E3 /* NetworkConstants.swift in Sources */,
+				7DD40D0B2DC23A3F00E142E3 /* Database.xcdatamodeld in Sources */,
 				7DD40CEE2DC2363C00E142E3 /* HomeProtocols.swift in Sources */,
 				7DD40CBD2DC22D4B00E142E3 /* ResultData.swift in Sources */,
 				7DD40CDB2DC2303C00E142E3 /* SplashRouter.swift in Sources */,
@@ -517,10 +535,12 @@
 				7DD40CD02DC22EC300E142E3 /* SplashInteractor.swift in Sources */,
 				7DD40CA62DC22B2800E142E3 /* ColorTheme.swift in Sources */,
 				7DD40CB02DC22BB600E142E3 /* UIColor+Extension(s).swift in Sources */,
+				7DD40D102DC23AA300E142E3 /* FavoriteCoreDataManager.swift in Sources */,
 				7DD40CC82DC22DBE00E142E3 /* NetworkPath.swift in Sources */,
 				7DD40CD22DC22FB500E142E3 /* SplashPresenter.swift in Sources */,
 				7DD40C682DC2260C00E142E3 /* AppDelegate.swift in Sources */,
 				7DD40CF92DC2373200E142E3 /* ButtonFactory.swift in Sources */,
+				7DD40D0E2DC23A8E00E142E3 /* CoreDataManaging.swift in Sources */,
 				7DD40CCA2DC22DDB00E142E3 /* NetworkManager.swift in Sources */,
 				7DD40D062DC2394D00E142E3 /* HomeVC+UITableView.swift in Sources */,
 				7DD40D042DC238B500E142E3 /* HomeVC+LocationTVCDelegate.swift in Sources */,
@@ -934,6 +954,19 @@
 			productName = "SnapKit-Dynamic";
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		7DD40D092DC23A3F00E142E3 /* Database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7DD40D0A2DC23A3F00E142E3 /* Database.xcdatamodel */,
+			);
+			currentVersion = 7DD40D0A2DC23A3F00E142E3 /* Database.xcdatamodel */;
+			path = Database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7DD40C5C2DC2260C00E142E3 /* Project object */;
 }
