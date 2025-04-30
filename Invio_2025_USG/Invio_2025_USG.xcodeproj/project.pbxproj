@@ -15,6 +15,13 @@
 		7DD40C7F2DC2260E00E142E3 /* Invio_2025_USGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40C7E2DC2260E00E142E3 /* Invio_2025_USGTests.swift */; };
 		7DD40C892DC2260E00E142E3 /* Invio_2025_USGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40C882DC2260E00E142E3 /* Invio_2025_USGUITests.swift */; };
 		7DD40C8B2DC2260E00E142E3 /* Invio_2025_USGUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40C8A2DC2260E00E142E3 /* Invio_2025_USGUITestsLaunchTests.swift */; };
+		7DD40CA12DC22AE700E142E3 /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CA02DC22AE700E142E3 /* LabelFactory.swift */; };
+		7DD40CA42DC22B1800E142E3 /* IconTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CA32DC22B1800E142E3 /* IconTheme.swift */; };
+		7DD40CA62DC22B2800E142E3 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CA52DC22B2800E142E3 /* ColorTheme.swift */; };
+		7DD40CA82DC22B3F00E142E3 /* TextTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CA72DC22B3F00E142E3 /* TextTheme.swift */; };
+		7DD40CAA2DC22B5800E142E3 /* ButtonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CA92DC22B5800E142E3 /* ButtonFactory.swift */; };
+		7DD40CB02DC22BB600E142E3 /* UIColor+Extension(s).swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CAF2DC22BB600E142E3 /* UIColor+Extension(s).swift */; };
+		7DD40CB32DC22C4200E142E3 /* ViewControllerAbles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CB22DC22C4200E142E3 /* ViewControllerAbles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		7DD40C842DC2260E00E142E3 /* Invio_2025_USGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Invio_2025_USGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD40C882DC2260E00E142E3 /* Invio_2025_USGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invio_2025_USGUITests.swift; sourceTree = "<group>"; };
 		7DD40C8A2DC2260E00E142E3 /* Invio_2025_USGUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invio_2025_USGUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7DD40CA02DC22AE700E142E3 /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
+		7DD40CA32DC22B1800E142E3 /* IconTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTheme.swift; sourceTree = "<group>"; };
+		7DD40CA52DC22B2800E142E3 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
+		7DD40CA72DC22B3F00E142E3 /* TextTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTheme.swift; sourceTree = "<group>"; };
+		7DD40CA92DC22B5800E142E3 /* ButtonFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFactory.swift; sourceTree = "<group>"; };
+		7DD40CAF2DC22BB600E142E3 /* UIColor+Extension(s).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension(s).swift"; sourceTree = "<group>"; };
+		7DD40CB22DC22C4200E142E3 /* ViewControllerAbles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAbles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +111,7 @@
 		7DD40C662DC2260C00E142E3 /* Invio_2025_USG */ = {
 			isa = PBXGroup;
 			children = (
+				7DD40C9E2DC22AB400E142E3 /* kits */,
 				7DD40C672DC2260C00E142E3 /* AppDelegate.swift */,
 				7DD40C692DC2260C00E142E3 /* SceneDelegate.swift */,
 				7DD40C6B2DC2260C00E142E3 /* ViewController.swift */,
@@ -122,6 +137,60 @@
 				7DD40C8A2DC2260E00E142E3 /* Invio_2025_USGUITestsLaunchTests.swift */,
 			);
 			path = Invio_2025_USGUITests;
+			sourceTree = "<group>";
+		};
+		7DD40C9E2DC22AB400E142E3 /* kits */ = {
+			isa = PBXGroup;
+			children = (
+				7DD40CB12DC22BD700E142E3 /* viewControllerAbleKit */,
+				7DD40C9F2DC22AD200E142E3 /* factoryKit */,
+				7DD40CAB2DC22B7B00E142E3 /* coreKit */,
+			);
+			path = kits;
+			sourceTree = "<group>";
+		};
+		7DD40C9F2DC22AD200E142E3 /* factoryKit */ = {
+			isa = PBXGroup;
+			children = (
+				7DD40CA02DC22AE700E142E3 /* LabelFactory.swift */,
+				7DD40CA92DC22B5800E142E3 /* ButtonFactory.swift */,
+			);
+			path = factoryKit;
+			sourceTree = "<group>";
+		};
+		7DD40CA22DC22B0900E142E3 /* theme */ = {
+			isa = PBXGroup;
+			children = (
+				7DD40CA32DC22B1800E142E3 /* IconTheme.swift */,
+				7DD40CA52DC22B2800E142E3 /* ColorTheme.swift */,
+				7DD40CA72DC22B3F00E142E3 /* TextTheme.swift */,
+			);
+			path = theme;
+			sourceTree = "<group>";
+		};
+		7DD40CAB2DC22B7B00E142E3 /* coreKit */ = {
+			isa = PBXGroup;
+			children = (
+				7DD40CAE2DC22BA400E142E3 /* extensions */,
+				7DD40CA22DC22B0900E142E3 /* theme */,
+			);
+			path = coreKit;
+			sourceTree = "<group>";
+		};
+		7DD40CAE2DC22BA400E142E3 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7DD40CAF2DC22BB600E142E3 /* UIColor+Extension(s).swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		7DD40CB12DC22BD700E142E3 /* viewControllerAbleKit */ = {
+			isa = PBXGroup;
+			children = (
+				7DD40CB22DC22C4200E142E3 /* ViewControllerAbles.swift */,
+			);
+			path = viewControllerAbleKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,7 +324,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DD40C6C2DC2260C00E142E3 /* ViewController.swift in Sources */,
+				7DD40CA42DC22B1800E142E3 /* IconTheme.swift in Sources */,
+				7DD40CB32DC22C4200E142E3 /* ViewControllerAbles.swift in Sources */,
+				7DD40CAA2DC22B5800E142E3 /* ButtonFactory.swift in Sources */,
+				7DD40CA12DC22AE700E142E3 /* LabelFactory.swift in Sources */,
+				7DD40CA62DC22B2800E142E3 /* ColorTheme.swift in Sources */,
+				7DD40CB02DC22BB600E142E3 /* UIColor+Extension(s).swift in Sources */,
 				7DD40C682DC2260C00E142E3 /* AppDelegate.swift in Sources */,
+				7DD40CA82DC22B3F00E142E3 /* TextTheme.swift in Sources */,
 				7DD40C6A2DC2260C00E142E3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
