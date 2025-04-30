@@ -64,6 +64,9 @@
 		7DFC935C2DC23EFC00AA8EAA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC935B2DC23EFC00AA8EAA /* DetailViewController.swift */; };
 		7DFC935F2DC23F2000AA8EAA /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7DFC935E2DC23F2000AA8EAA /* Kingfisher */; };
 		7DFC93612DC23F3600AA8EAA /* UIImageView+Extension(s).swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93602DC23F3600AA8EAA /* UIImageView+Extension(s).swift */; };
+		7DFC93642DC240BA00AA8EAA /* MockDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93632DC240BA00AA8EAA /* MockDetailInteractor.swift */; };
+		7DFC93662DC240DF00AA8EAA /* MockDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93652DC240DF00AA8EAA /* MockDetailViewController.swift */; };
+		7DFC93682DC2411600AA8EAA /* DetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93672DC2411600AA8EAA /* DetailViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,6 +145,9 @@
 		7DFC93592DC23EE900AA8EAA /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
 		7DFC935B2DC23EFC00AA8EAA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		7DFC93602DC23F3600AA8EAA /* UIImageView+Extension(s).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension(s).swift"; sourceTree = "<group>"; };
+		7DFC93632DC240BA00AA8EAA /* MockDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDetailInteractor.swift; sourceTree = "<group>"; };
+		7DFC93652DC240DF00AA8EAA /* MockDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDetailViewController.swift; sourceTree = "<group>"; };
+		7DFC93672DC2411600AA8EAA /* DetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +219,7 @@
 		7DD40C7D2DC2260E00E142E3 /* Invio_2025_USGTests */ = {
 			isa = PBXGroup;
 			children = (
+				7DFC93622DC240A400AA8EAA /* detail */,
 				7DD40D112DC23C4000E142E3 /* home */,
 				7DD40CE32DC2322600E142E3 /* splash */,
 				7DD40C7E2DC2260E00E142E3 /* Invio_2025_USGTests.swift */,
@@ -420,6 +427,16 @@
 			path = detailModule;
 			sourceTree = "<group>";
 		};
+		7DFC93622DC240A400AA8EAA /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				7DFC93632DC240BA00AA8EAA /* MockDetailInteractor.swift */,
+				7DFC93652DC240DF00AA8EAA /* MockDetailViewController.swift */,
+				7DFC93672DC2411600AA8EAA /* DetailViewModelTests.swift */,
+			);
+			path = detail;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -610,12 +627,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DFC93682DC2411600AA8EAA /* DetailViewModelTests.swift in Sources */,
 				7DD40CE72DC2325D00E142E3 /* MockPageElements.swift in Sources */,
 				7DD40CE92DC2328D00E142E3 /* MockSplashViewController.swift in Sources */,
 				7DD40D152DC23C8E00E142E3 /* MockHomeViewController.swift in Sources */,
 				7DD40C7F2DC2260E00E142E3 /* Invio_2025_USGTests.swift in Sources */,
 				7DD40CE52DC2323F00E142E3 /* MockSplashInteractor.swift in Sources */,
+				7DFC93642DC240BA00AA8EAA /* MockDetailInteractor.swift in Sources */,
 				7DD40CEB2DC232AE00E142E3 /* SplashPresenterTests.swift in Sources */,
+				7DFC93662DC240DF00AA8EAA /* MockDetailViewController.swift in Sources */,
 				7DD40D132DC23C5D00E142E3 /* MockHomeInteractor.swift in Sources */,
 				7DD40D172DC23CB900E142E3 /* HomePresenterTests.swift in Sources */,
 			);
