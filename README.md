@@ -115,6 +115,12 @@ protocol MapLocationManagerProtocol {
   <li>MapKit</li>
 </ul>  
 
+##Language
+<ul>
+   <li>Türkçe</li>
+  <li>English</li>
+</ul> 
+
 
 ## Videos
  <table style"float:right;">
@@ -137,4 +143,20 @@ protocol MapLocationManagerProtocol {
    <td>    <img width="420" height="440" src = "https://github.com/user-attachments/assets/47885568-7dd1-4f54-a78d-a336e3470b10">     </td>
  </tr>
  </table>
+
+ ## Screens (iPhone SE)
+
+
  
+ <tr>
+   <td>  <img width="400" height="440" src = "https://github.com/user-attachments/assets/117885a7-e814-490c-bf7d-c15dc556469c">   </td>
+   <td>  <img width="400" height="440" src = "https://github.com/user-attachments/assets/319e2ac9-64a2-4d47-8ec1-65192b4c5dcb">   </td>
+ </tr>
+ </table>
+
+ <table style"float:right;">
+ <tr>
+   <td>    <img width="400" height="440" src = "https://github.com/user-attachments/assets/885ea206-fb18-4099-b5d7-a6dc0442b94a">    </td>
+  <td>    <img width="400" height="440" src = "https://github.com/user-attachments/assets/41e27838-799b-43ba-8994-243d8badc660">     </td>
+ </tr>
+ </table>
