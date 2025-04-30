@@ -28,6 +28,7 @@
 		7DD40CC62DC22D9A00E142E3 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CC52DC22D9A00E142E3 /* NetworkConstants.swift */; };
 		7DD40CC82DC22DBE00E142E3 /* NetworkPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CC72DC22DBE00E142E3 /* NetworkPath.swift */; };
 		7DD40CCA2DC22DDB00E142E3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CC92DC22DDB00E142E3 /* NetworkManager.swift */; };
+		7DD40CCE2DC22E5E00E142E3 /* SplashProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CCD2DC22E5E00E142E3 /* SplashProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		7DD40CC52DC22D9A00E142E3 /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
 		7DD40CC72DC22DBE00E142E3 /* NetworkPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPath.swift; sourceTree = "<group>"; };
 		7DD40CC92DC22DDB00E142E3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7DD40CCD2DC22E5E00E142E3 /* SplashProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				7DD40C9E2DC22AB400E142E3 /* kits */,
+				7DD40CCB2DC22E4100E142E3 /* modules */,
 				7DD40C672DC2260C00E142E3 /* AppDelegate.swift */,
 				7DD40C692DC2260C00E142E3 /* SceneDelegate.swift */,
 				7DD40C6B2DC2260C00E142E3 /* ViewController.swift */,
@@ -223,6 +226,22 @@
 				7DD40CC92DC22DDB00E142E3 /* NetworkManager.swift */,
 			);
 			path = networkManagerkit;
+			sourceTree = "<group>";
+		};
+		7DD40CCB2DC22E4100E142E3 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				7DD40CCC2DC22E4B00E142E3 /* splashModule */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		7DD40CCC2DC22E4B00E142E3 /* splashModule */ = {
+			isa = PBXGroup;
+			children = (
+				7DD40CCD2DC22E5E00E142E3 /* SplashProtocols.swift */,
+			);
+			path = splashModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +381,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DD40CCE2DC22E5E00E142E3 /* SplashProtocols.swift in Sources */,
 				7DD40CC62DC22D9A00E142E3 /* NetworkConstants.swift in Sources */,
 				7DD40CBD2DC22D4B00E142E3 /* ResultData.swift in Sources */,
 				7DD40C6C2DC2260C00E142E3 /* ViewController.swift in Sources */,
