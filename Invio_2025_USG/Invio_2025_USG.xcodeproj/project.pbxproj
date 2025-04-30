@@ -78,6 +78,10 @@
 		7DFC937E2DC245FE00AA8EAA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC937D2DC245FE00AA8EAA /* MapView.swift */; };
 		7DFC93802DC2461A00AA8EAA /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC937F2DC2461A00AA8EAA /* BaseView.swift */; };
 		7DFC93822DC2464E00AA8EAA /* MapEnumTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93812DC2464E00AA8EAA /* MapEnumTypes.swift */; };
+		7DFC93852DC2484500AA8EAA /* LocationMapProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93842DC2484500AA8EAA /* LocationMapProtocols.swift */; };
+		7DFC93872DC2487500AA8EAA /* LocationMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93862DC2487500AA8EAA /* LocationMapPresenter.swift */; };
+		7DFC93892DC2489000AA8EAA /* LocationMapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93882DC2489000AA8EAA /* LocationMapRouter.swift */; };
+		7DFC938B2DC248A600AA8EAA /* LocationMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC938A2DC248A600AA8EAA /* LocationMapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -170,6 +174,10 @@
 		7DFC937D2DC245FE00AA8EAA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		7DFC937F2DC2461A00AA8EAA /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		7DFC93812DC2464E00AA8EAA /* MapEnumTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapEnumTypes.swift; sourceTree = "<group>"; };
+		7DFC93842DC2484500AA8EAA /* LocationMapProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapProtocols.swift; sourceTree = "<group>"; };
+		7DFC93862DC2487500AA8EAA /* LocationMapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapPresenter.swift; sourceTree = "<group>"; };
+		7DFC93882DC2489000AA8EAA /* LocationMapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapRouter.swift; sourceTree = "<group>"; };
+		7DFC938A2DC248A600AA8EAA /* LocationMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -343,6 +351,7 @@
 		7DD40CCB2DC22E4100E142E3 /* modules */ = {
 			isa = PBXGroup;
 			children = (
+				7DFC93832DC2482700AA8EAA /* locationMapModule */,
 				7DFC93692DC2428C00AA8EAA /* favoritesModule */,
 				7DFC93522DC23E7C00AA8EAA /* detailModule */,
 				7DD40CEC2DC2357300E142E3 /* homeModule */,
@@ -502,6 +511,17 @@
 			path = viewKit;
 			sourceTree = "<group>";
 		};
+		7DFC93832DC2482700AA8EAA /* locationMapModule */ = {
+			isa = PBXGroup;
+			children = (
+				7DFC93842DC2484500AA8EAA /* LocationMapProtocols.swift */,
+				7DFC93862DC2487500AA8EAA /* LocationMapPresenter.swift */,
+				7DFC93882DC2489000AA8EAA /* LocationMapRouter.swift */,
+				7DFC938A2DC248A600AA8EAA /* LocationMapViewController.swift */,
+			);
+			path = locationMapModule;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -646,11 +666,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DFC93852DC2484500AA8EAA /* LocationMapProtocols.swift in Sources */,
 				7DD40CCE2DC22E5E00E142E3 /* SplashProtocols.swift in Sources */,
 				7DFC937E2DC245FE00AA8EAA /* MapView.swift in Sources */,
 				7DD40CC62DC22D9A00E142E3 /* NetworkConstants.swift in Sources */,
 				7DD40D0B2DC23A3F00E142E3 /* Database.xcdatamodeld in Sources */,
 				7DFC93582DC23ECE00AA8EAA /* DetailInteractor.swift in Sources */,
+				7DFC93892DC2489000AA8EAA /* LocationMapRouter.swift in Sources */,
 				7DD40CEE2DC2363C00E142E3 /* HomeProtocols.swift in Sources */,
 				7DD40CBD2DC22D4B00E142E3 /* ResultData.swift in Sources */,
 				7DFC93722DC2431000AA8EAA /* FavoritesViewController.swift in Sources */,
@@ -664,6 +686,7 @@
 				7DFC93542DC23E9C00AA8EAA /* DetailProtocols.swift in Sources */,
 				7DD40CF22DC236A600E142E3 /* HomeInteractor.swift in Sources */,
 				7DD40CFF2DC2387000E142E3 /* HomeVC + CityHeaderViewOnTVCDelegate.swift in Sources */,
+				7DFC938B2DC248A600AA8EAA /* LocationMapViewController.swift in Sources */,
 				7DD40CA42DC22B1800E142E3 /* IconTheme.swift in Sources */,
 				7DD40CB32DC22C4200E142E3 /* ViewControllerAbles.swift in Sources */,
 				7DD40CA12DC22AE700E142E3 /* LabelFactory.swift in Sources */,
@@ -677,6 +700,7 @@
 				7DD40D102DC23AA300E142E3 /* FavoriteCoreDataManager.swift in Sources */,
 				7DD40CC82DC22DBE00E142E3 /* NetworkPath.swift in Sources */,
 				7DD40CD22DC22FB500E142E3 /* SplashPresenter.swift in Sources */,
+				7DFC93872DC2487500AA8EAA /* LocationMapPresenter.swift in Sources */,
 				7DD40C682DC2260C00E142E3 /* AppDelegate.swift in Sources */,
 				7DD40CF92DC2373200E142E3 /* ButtonFactory.swift in Sources */,
 				7DFC93762DC2434000AA8EAA /* FavTVC.swift in Sources */,
@@ -896,6 +920,8 @@
 				INFOPLIST_FILE = Invio_2025_USG/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "City Travel";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -928,6 +954,8 @@
 				INFOPLIST_FILE = Invio_2025_USG/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "City Travel";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

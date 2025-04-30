@@ -105,3 +105,31 @@ extension AlertControllerAble where Self : UIViewController   {
     }
 }
 
+
+//MARK: ActionSheetAble
+protocol ActionSheetAble {
+    /// Create Action Sheet
+    /// - Parameters:
+    ///   - title: Action Sheet title
+    ///   - message: Action Sheet message
+    ///   - sections: Add one or more options to the Action Sheet
+    func createActionSheet(title:String,message:String,sections:[ActionInfo])
+}
+
+extension ActionSheetAble where Self : UIViewController {
+    func createActionSheet(title:String,message:String,sections:[ActionInfo]) {
+        let actionSheet = UIAlertController(title: title, message: message, preferredStyle: .actionSheet)
+        
+        sections.forEach { actionInfo in
+            let action = UIAlertAction(title: actionInfo.title, style: .default) { _ in
+                actionInfo.action()
+            }
+            actionSheet.addAction(action)
+        }
+        let cancel = UIAlertAction(title: TextTheme.cancel.localized, style: .cancel)
+        actionSheet.addAction(cancel)
+        self.present(actionSheet,animated: true)
+    }
+}
+
+
