@@ -74,6 +74,10 @@
 		7DFC93742DC2433100AA8EAA /* FavoritesVC+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93732DC2433100AA8EAA /* FavoritesVC+UITableView.swift */; };
 		7DFC93762DC2434000AA8EAA /* FavTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93752DC2434000AA8EAA /* FavTVC.swift */; };
 		7DFC93782DC2436600AA8EAA /* FavoritesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93772DC2436600AA8EAA /* FavoritesRouter.swift */; };
+		7DFC937B2DC2459D00AA8EAA /* MapLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC937A2DC2459D00AA8EAA /* MapLocationManager.swift */; };
+		7DFC937E2DC245FE00AA8EAA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC937D2DC245FE00AA8EAA /* MapView.swift */; };
+		7DFC93802DC2461A00AA8EAA /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC937F2DC2461A00AA8EAA /* BaseView.swift */; };
+		7DFC93822DC2464E00AA8EAA /* MapEnumTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFC93812DC2464E00AA8EAA /* MapEnumTypes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -162,6 +166,10 @@
 		7DFC93732DC2433100AA8EAA /* FavoritesVC+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavoritesVC+UITableView.swift"; sourceTree = "<group>"; };
 		7DFC93752DC2434000AA8EAA /* FavTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavTVC.swift; sourceTree = "<group>"; };
 		7DFC93772DC2436600AA8EAA /* FavoritesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesRouter.swift; sourceTree = "<group>"; };
+		7DFC937A2DC2459D00AA8EAA /* MapLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLocationManager.swift; sourceTree = "<group>"; };
+		7DFC937D2DC245FE00AA8EAA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7DFC937F2DC2461A00AA8EAA /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		7DFC93812DC2464E00AA8EAA /* MapEnumTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapEnumTypes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +262,7 @@
 		7DD40C9E2DC22AB400E142E3 /* kits */ = {
 			isa = PBXGroup;
 			children = (
+				7DFC937C2DC245F400AA8EAA /* viewKit */,
 				7DD40CBA2DC22D2000E142E3 /* managerKit */,
 				7DD40CB12DC22BD700E142E3 /* viewControllerAbleKit */,
 				7DD40C9F2DC22AD200E142E3 /* factoryKit */,
@@ -286,6 +295,7 @@
 			children = (
 				7DD40CAE2DC22BA400E142E3 /* extensions */,
 				7DD40CA22DC22B0900E142E3 /* theme */,
+				7DFC937F2DC2461A00AA8EAA /* BaseView.swift */,
 			);
 			path = coreKit;
 			sourceTree = "<group>";
@@ -311,6 +321,7 @@
 		7DD40CBA2DC22D2000E142E3 /* managerKit */ = {
 			isa = PBXGroup;
 			children = (
+				7DFC93792DC2458100AA8EAA /* mapLocationManager */,
 				7DD40D0C2DC23A7500E142E3 /* coreDataManagerkit */,
 				7DD40CBB2DC22D3200E142E3 /* networkManagerkit */,
 			);
@@ -474,6 +485,23 @@
 			path = viewController;
 			sourceTree = "<group>";
 		};
+		7DFC93792DC2458100AA8EAA /* mapLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				7DFC937A2DC2459D00AA8EAA /* MapLocationManager.swift */,
+			);
+			path = mapLocationManager;
+			sourceTree = "<group>";
+		};
+		7DFC937C2DC245F400AA8EAA /* viewKit */ = {
+			isa = PBXGroup;
+			children = (
+				7DFC937D2DC245FE00AA8EAA /* MapView.swift */,
+				7DFC93812DC2464E00AA8EAA /* MapEnumTypes.swift */,
+			);
+			path = viewKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -619,6 +647,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DD40CCE2DC22E5E00E142E3 /* SplashProtocols.swift in Sources */,
+				7DFC937E2DC245FE00AA8EAA /* MapView.swift in Sources */,
 				7DD40CC62DC22D9A00E142E3 /* NetworkConstants.swift in Sources */,
 				7DD40D0B2DC23A3F00E142E3 /* Database.xcdatamodeld in Sources */,
 				7DFC93582DC23ECE00AA8EAA /* DetailInteractor.swift in Sources */,
@@ -638,6 +667,7 @@
 				7DD40CA42DC22B1800E142E3 /* IconTheme.swift in Sources */,
 				7DD40CB32DC22C4200E142E3 /* ViewControllerAbles.swift in Sources */,
 				7DD40CA12DC22AE700E142E3 /* LabelFactory.swift in Sources */,
+				7DFC93822DC2464E00AA8EAA /* MapEnumTypes.swift in Sources */,
 				7DD40D022DC2389000E142E3 /* LocationTVC.swift in Sources */,
 				7DD40CF02DC2368400E142E3 /* HomeRouter.swift in Sources */,
 				7DFC936F2DC242DE00AA8EAA /* FavoritesPresenter.swift in Sources */,
@@ -656,8 +686,10 @@
 				7DD40D062DC2394D00E142E3 /* HomeVC+UITableView.swift in Sources */,
 				7DD40D042DC238B500E142E3 /* HomeVC+LocationTVCDelegate.swift in Sources */,
 				7DD40CA82DC22B3F00E142E3 /* TextTheme.swift in Sources */,
+				7DFC93802DC2461A00AA8EAA /* BaseView.swift in Sources */,
 				7DD40CC42DC22D7D00E142E3 /* TargetType.swift in Sources */,
 				7DFC93612DC23F3600AA8EAA /* UIImageView+Extension(s).swift in Sources */,
+				7DFC937B2DC2459D00AA8EAA /* MapLocationManager.swift in Sources */,
 				7DFC93782DC2436600AA8EAA /* FavoritesRouter.swift in Sources */,
 				7DFC936B2DC2429F00AA8EAA /* FavoritesProtocols.swift in Sources */,
 				7DD40D082DC2397300E142E3 /* UIActivityIndicatorView+Extension(s).swift in Sources */,
