@@ -35,6 +35,10 @@
 		7DD40CD92DC2300F00E142E3 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 7DD40CD82DC2300F00E142E3 /* SnapKit-Dynamic */; };
 		7DD40CDB2DC2303C00E142E3 /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CDA2DC2303C00E142E3 /* SplashRouter.swift */; };
 		7DD40CDE2DC2317A00E142E3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DD40CE02DC2317A00E142E3 /* Localizable.strings */; };
+		7DD40CE52DC2323F00E142E3 /* MockSplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CE42DC2323F00E142E3 /* MockSplashInteractor.swift */; };
+		7DD40CE72DC2325D00E142E3 /* MockPageElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CE62DC2325D00E142E3 /* MockPageElements.swift */; };
+		7DD40CE92DC2328D00E142E3 /* MockSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CE82DC2328D00E142E3 /* MockSplashViewController.swift */; };
+		7DD40CEB2DC232AE00E142E3 /* SplashViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD40CEA2DC232AE00E142E3 /* SplashViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +89,10 @@
 		7DD40CDF2DC2317A00E142E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7DD40CE12DC2319D00E142E3 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		7DD40CE22DC2319D00E142E3 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7DD40CE42DC2323F00E142E3 /* MockSplashInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSplashInteractor.swift; sourceTree = "<group>"; };
+		7DD40CE62DC2325D00E142E3 /* MockPageElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPageElements.swift; sourceTree = "<group>"; };
+		7DD40CE82DC2328D00E142E3 /* MockSplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSplashViewController.swift; sourceTree = "<group>"; };
+		7DD40CEA2DC232AE00E142E3 /* SplashViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,7 +162,9 @@
 		7DD40C7D2DC2260E00E142E3 /* Invio_2025_USGTests */ = {
 			isa = PBXGroup;
 			children = (
+				7DD40CE32DC2322600E142E3 /* splash */,
 				7DD40C7E2DC2260E00E142E3 /* Invio_2025_USGTests.swift */,
+				7DD40CE62DC2325D00E142E3 /* MockPageElements.swift */,
 			);
 			path = Invio_2025_USGTests;
 			sourceTree = "<group>";
@@ -260,6 +270,16 @@
 				7DD40CDA2DC2303C00E142E3 /* SplashRouter.swift */,
 			);
 			path = splashModule;
+			sourceTree = "<group>";
+		};
+		7DD40CE32DC2322600E142E3 /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				7DD40CE42DC2323F00E142E3 /* MockSplashInteractor.swift */,
+				7DD40CE82DC2328D00E142E3 /* MockSplashViewController.swift */,
+				7DD40CEA2DC232AE00E142E3 /* SplashViewModelTests.swift */,
+			);
+			path = splash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -429,7 +449,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DD40CE72DC2325D00E142E3 /* MockPageElements.swift in Sources */,
+				7DD40CE92DC2328D00E142E3 /* MockSplashViewController.swift in Sources */,
 				7DD40C7F2DC2260E00E142E3 /* Invio_2025_USGTests.swift in Sources */,
+				7DD40CE52DC2323F00E142E3 /* MockSplashInteractor.swift in Sources */,
+				7DD40CEB2DC232AE00E142E3 /* SplashViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
